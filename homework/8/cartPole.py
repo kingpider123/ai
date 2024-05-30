@@ -7,11 +7,12 @@ steps = 0
 for _ in range(200):
     env.render()
 
-    if observation[3] > 0:
-        action = 1
+    if observation[2] > 0:
+            action = 1    
     else:
-        action = 0
+            action = 0
     print("space: ",observation[0])
+    
     print("vel: ",observation[1])  
     print("ang: ",observation[2])   
     print("angVel: ",observation[3])
