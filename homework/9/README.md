@@ -3,6 +3,7 @@
 ```
 pip install groq
 ```
+# Need to register Grog API key from this (register an account): https://console.groq.com/docs/quickstart
 # Output:
 ```
 C:\phuc\AI\ai\homework\9>python hw9.py
